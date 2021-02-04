@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cell">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAAAEAAJAYAACAAAAAACAAAAAgGAIAAA=</HashCode>
+      <FileName>Cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameWindow">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAoEjFoABCgAAAAUAACAACEwAAKCBABggQAAFw=</HashCode>
+      <FileName>GameWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settings">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAQCYCBgAAAgAAIAAA=</HashCode>
+      <FileName>Settings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake">
+    <Position X="14.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAAAAAwAAAAAACIIAIAAAAAAAAYAYABCAAAAAAAAAA=</HashCode>
+      <FileName>Snake.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLayout">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASJAAAABESEACAAhAB5CQQAAAAEAgACICAAAAAAAgAE=</HashCode>
+      <FileName>GameLayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Layout">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAACAAAACQAQAKAAAACAAAAQAAIAABgAGBAAAA=</HashCode>
+      <FileName>Layout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuLayout">
+    <Position X="3" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAoCAAAAAAAAAACAAAACAAAAAAA=</HashCode>
+      <FileName>MenuLayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingsLayout">
+    <Position X="6" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQgAAAAAAYIBABABYgoAAAAAGBhACIAAAAEIAgCDA=</HashCode>
+      <FileName>SettingsLayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GradientSelector">
+    <Position X="16.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACoCACAAAAAAQgCgAIAEAAAIQgA=</HashCode>
+      <FileName>GradientSelector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextView">
+    <Position X="19.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAgAAgCAAAAAAAAAAAA=</HashCode>
+      <FileName>TextView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAACAAAAAAQAQAoAAAACAAABQgAAAABgAGAAAgA=</HashCode>
+      <FileName>View.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Delegate&lt;T&gt;">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAACAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Delegate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameException">
+    <Position X="12" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAACA=</HashCode>
+      <FileName>GameException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WrongParameterException">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>WrongParameterException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clickable">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clickable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMenuAdapter">
+    <Position X="9.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>IMenuAdapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuAdapter">
+    <Position X="9.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQQAAAAAAAAABAAAgAAAAAAQIAAIAAAQEAAg=</HashCode>
+      <FileName>MainMenuAdapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GameMode">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>GameMode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

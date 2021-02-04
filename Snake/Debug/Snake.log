@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Stepan\source\repos\Snake\Snake\Settings.h(7,30): warning C4305: инициализация: усечение из "double" в "float"
+  Snake.vcxproj -> C:\Users\Stepan\source\repos\Snake\Debug\Snake.exe

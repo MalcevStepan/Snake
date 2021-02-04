@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Layouts">
+      <UniqueIdentifier>{569905b9-9a78-41fd-b866-cf53f2abefe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Interface">
+      <UniqueIdentifier>{f0f4288c-e73c-4b66-aac1-36f05fcec75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Exceptions">
+      <UniqueIdentifier>{d501ecb8-5ff4-4766-b9a0-e20d5c19a4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Views">
+      <UniqueIdentifier>{bd41d984-de50-4e74-a339-beccf846028d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Game">
+      <UniqueIdentifier>{39cc7366-8550-4786-b78e-1c3decbf3299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Adapters">
+      <UniqueIdentifier>{45c27d1e-1fbc-4eae-bf1a-3ce6c31427ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuAdapter.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientSelector.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLayout.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsLayout.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuLayout.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Delegate.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsLayout.h">
+      <Filter>Файлы заголовков\Layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuLayout.h">
+      <Filter>Файлы заголовков\Layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLayout.h">
+      <Filter>Файлы заголовков\Layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="Clickable.h">
+      <Filter>Файлы заголовков\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="WrongParameterException.h">
+      <Filter>Файлы заголовков\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="GameException.h">
+      <Filter>Файлы заголовков\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Файлы заголовков\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientSelector.h">
+      <Filter>Файлы заголовков\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout.h">
+      <Filter>Файлы заголовков\Layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="TextView.h">
+      <Filter>Файлы заголовков\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="IMenuAdapter.h">
+      <Filter>Файлы заголовков\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Файлы заголовков\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Файлы заголовков\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Файлы заголовков\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Файлы заголовков\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>Файлы заголовков\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuAdapter.h">
+      <Filter>Файлы заголовков\Adapters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
